@@ -1,0 +1,35 @@
+.listContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px 20px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 200px;
+  margin: 300px auto;
+}
+
+a {
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+a.chapter {
+  font-size: 30px;
+}
+
+.homeButton {
+  width: 100px;
+  height: 40px;
+}
